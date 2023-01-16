@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['uuid', 'lodash']
+      external: ['uuid', 'lodash', 'react-confetti']
     }
   }
 })

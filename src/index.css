@@ -23,6 +23,7 @@
 
 .front-text{
   margin-top: 0;
+  
 }
 
 .forms-container{
@@ -40,15 +41,16 @@ form{
   padding:.5rem;
   text-shadow: 1px 1px white;
   box-shadow: 50px;
- 
 }
 
 .difficulty{
   background-color: #f5cdcd;
+  
 }
 
 .questions-amount{
   background-color:#b6ebc2; ;
+  
 }
 
 .question-types{
@@ -66,11 +68,11 @@ select option{
 .quizpage-btn{
   background-color: #4D5B9E;
   color: whitesmoke;
-  width:193px;
+  width:180px;
   height: 52px;
   border-radius: 1rem;
   border: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   cursor: pointer;
 }
 

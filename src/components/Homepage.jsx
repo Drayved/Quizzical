@@ -30,7 +30,7 @@ export default function Homepage(props){
         <main>
         <div className="front-page">
         <h1 className="front-header">Quizzical</h1>
-        <p className="front-text">Some description if needed</p>
+        <p className="front-text">Test your intelligence!</p>
         <button onClick={props.handleClick} className="front-btn">Start quiz</button>
         <div className="forms-container">
             <form className="difficulty" action="">

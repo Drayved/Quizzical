@@ -94,7 +94,6 @@ select option{
 /* quizpage */
 .questions{
   padding:  0;
-  font-size: 1.2rem;
 }
 
 .question-answers{
@@ -117,7 +116,7 @@ select option{
   border: 1px solid #293264;
   border-radius: 20px;
   padding: .3rem 1rem;
-  max-width: 130px;
+  max-width: 30vw;
   margin-left: -40px;
   cursor: pointer;
 }
@@ -159,8 +158,8 @@ select option{
   background-color: #DEEBF8;
   bottom: 0;
   left: 0;
-  width: 300px;
-  height: 300px;
+  width: 30vw;
+  height: 30vh;
   transform: translate(-40%, 40%);
   border-radius: 69% 50% 37% 40% / 66% 47% 80% 69%;
 }
@@ -169,8 +168,8 @@ select option{
   background-color: #f5cdcd;
   bottom:0;
   right:0;
-  width: 240px;
-  height: 180px;
+  width: 24vw;
+  height: 18vh;
   transform: translate(0%, 10%);
   border-radius: 90% 90% 0% 0% / 90% 20% 0% 10%;
 }
@@ -179,8 +178,8 @@ select option{
   background-color: #b6ebc2;
   top:0;
   left:0;
-  width: 220px;
-  height: 280px;
+  width: 20vw;
+  height: 28vh;
   transform: translate(0%, -50%);
   border-radius: 50% 40% 60% 70% / 0% 9% 60% 10%;
 }
@@ -189,8 +188,8 @@ select option{
   background-color: #FFFAD1;
   top: 0;
   right: 0;
-  width: 350px;
-  height: 350px;
+  width: 35vw;
+  height: 30vh;
   transform: translate(40%, -40%);
   border-radius: 0% 0% 0% 90% / 20% 80%;
 }
@@ -213,5 +212,13 @@ select option{
   }
   .restart-text{
     margin-left: 2rem;
+  }
+  .questions{
+    font-size: 3.2vw;
+  }
+
+  .answers{
+    font-size: 1.8vw;
+    padding: .5vh 3vw;
   }
 }

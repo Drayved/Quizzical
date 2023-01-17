@@ -150,7 +150,6 @@ select option{
 /* BLOBS! */
 .blob{
   height: 200px;
-  
   position: fixed;
   z-index: -10;
 }
@@ -228,7 +227,7 @@ select option{
 @media(max-width: 650px) {
   
   .question-answers{
-    width: 80%;
+    width: 85%;
   }
 }
 
@@ -239,7 +238,7 @@ select option{
   }
   
   .question-answers{
-    width: 90%;
+    width: 93%;
     text-align: left;
     
   }

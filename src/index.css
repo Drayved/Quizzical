@@ -94,6 +94,7 @@ select option{
 /* quizpage */
 .questions{
   padding:  0;
+  margin-bottom: 0;
 }
 
 .question-answers{
@@ -116,7 +117,7 @@ select option{
   border: 1px solid #293264;
   border-radius: 20px;
   padding: 1.6vh 4vw;
-  max-width: 30vw;
+  max-width: 40vw;
   margin-left: -40px;
   cursor: pointer;
 }

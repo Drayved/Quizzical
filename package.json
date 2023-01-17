@@ -9,9 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@parse/react": "^0.0.1-alpha.18",
     "html-react-parser": "^3.0.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "lodash": "^4.17.21",
+    "parse": "^3.5.1",
+    "react-confetti": "^6.1.0",
+    "react-router-dom": "^6.6.2",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

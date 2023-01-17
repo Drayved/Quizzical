@@ -229,6 +229,16 @@ select option{
   .question-answers{
     width: 85%;
   }
+
+  .answers{
+
+    margin: .5rem 3rem;
+
+    padding: 1.6vh 4vw;
+   
+    margin-left: -40px;
+    cursor: pointer;
+  }
 }
 
 @media(max-width: 470px) {
@@ -238,7 +248,7 @@ select option{
   }
   
   .question-answers{
-    width: 93%;
+    width: 95%;
     text-align: left;
     
   }

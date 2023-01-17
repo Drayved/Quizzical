@@ -1,5 +1,5 @@
 import React from "react"
-import parse from 'html-react-parser'
+
 
 export default function Quizpage(props){
     const [quizFinished, setQuizFinished] = React.useState(false)

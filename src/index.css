@@ -100,7 +100,7 @@ select option{
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #293264;
-  width: 50%;
+  width: 70%;
   text-align: left;
   margin: 0 auto;
 }
@@ -112,14 +112,15 @@ select option{
 .answers{
   display: flex;
   align-items: center;
-  margin: .5rem 3.5rem;
+  margin: .5rem 4rem;
   border: 1px solid #293264;
   border-radius: 20px;
-  padding: .3rem 1rem;
+  padding: 1.6vh 4vw;
   max-width: 30vw;
   margin-left: -40px;
   cursor: pointer;
 }
+
 
 
 /* answer styles and pointer options */

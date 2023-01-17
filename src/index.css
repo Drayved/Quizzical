@@ -220,13 +220,13 @@ select option{
   .answers{
     font-size: 1.6vw;
     padding: .5vh 3vw;
-    padding: .3rem .4rem;
   }
 }
 
 @media(max-width: 550px) {
   .answers{
-    padding: .3rem .2rem
+    padding: .3rem .2rem;
+    min-width: 12vw;
   }
   
   .question-answers{

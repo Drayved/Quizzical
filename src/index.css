@@ -223,3 +223,15 @@ select option{
     padding: .3rem .4rem;
   }
 }
+
+@media(max-width: 550px) {
+  .answers{
+    padding: .3rem .2rem
+  }
+  
+  .question-answers{
+    width: 65%;
+    text-align: left;
+    
+  }
+}

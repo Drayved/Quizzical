@@ -150,7 +150,7 @@ select option{
 /* BLOBS! */
 .blob{
   height: 200px;
-  aspect-ratio: 1;
+  
   position: fixed;
   z-index: -10;
 }

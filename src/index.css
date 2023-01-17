@@ -225,7 +225,6 @@ select option{
 }
 
 @media(max-width: 650px) {
-  
   .question-answers{
     width: 85%;
   }
@@ -239,14 +238,9 @@ select option{
 }
 
 @media(max-width: 470px) {
-  .answers{
-    margin-left: px;
-    
-  }
   
   .question-answers{
     width: 95%;
     text-align: left;
-    
   }
 }

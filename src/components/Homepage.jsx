@@ -54,6 +54,7 @@ export default function Homepage(props){
             <form className="question-types" action="">
                <label>Select the type of questions:</label>
                <select className="select-questions" value={selectType} onChange={handleType}>
+                     <option value="">Any</option>
                      <option value="multiple">Multiple choice</option>
                      <option value="boolean" >True and False</option>
                </select>

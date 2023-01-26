@@ -2,7 +2,7 @@ import React from "react"
 import Homepage from "./components/Homepage"
 import Quizpage from "./components/Quizpage"
 import { v4 as uuidv4 } from 'uuid'
-import { shuffle } from 'lodash'
+import { set, shuffle } from 'lodash'
 import Confetti from 'react-confetti'
 
 
@@ -14,7 +14,7 @@ export default function App(){
   const [selectAnswer, setSelectAnswer] = React.useState({})
   const [score, setScore] = React.useState(0)
   const [questionsAmount, setQuestionsAmount] = React.useState(5)
-  const [difficulty, setDifficulty] = React.useState("")
+  const [difficulty, setDifficulty] = React.useState("easy")
   const [category, setCategory] = React.useState("")
   const [type, setType] = React.useState("")
   
@@ -31,6 +31,10 @@ export default function App(){
     setScore(0)
     setIsAnswered(false)
     setQuizStart(false)
+    setQuestionsAmount(5)
+    setType("")
+    setDifficulty("easy")
+    setCategory("")
   }
 
   function checkAnswers(){

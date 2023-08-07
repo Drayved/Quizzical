@@ -32,3 +32,8 @@ You can access the Quizzical application [here](https://davids-quizzical-app.net
 - JavaScript
 - HTML
 - CSS
+
+## Screenshots
+
+![Screenshot 1](/screenshots/screenshot1.JPG)
+![Screenshot 2](/screenshots/screenshot2.JPG)
